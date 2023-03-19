@@ -16,6 +16,7 @@ img {
   display: block;
   max-width: 100%;
 }
+/* COLOR SWITCHER */
 
 .color-switcher__body {
   display: flex;
@@ -59,4 +60,26 @@ img {
 [disabled] {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* TIMER */
+
+.timer {
+  display: flex;
+  margin-top: 50px;
+  width: fit-content;
+  padding: 20px;
+  border: 2px solid #136402;
+  border-radius: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.value {
+  font-size: 40px;
 }
