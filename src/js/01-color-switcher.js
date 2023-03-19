@@ -3,7 +3,7 @@ const refs = {
   start: document.querySelector('[data-start]'),
   stop: document.querySelector('[data-stop]'),
 };
-// console.log(refs);
+
 let currentColor = '#ffffff';
 let timerId = null;
 refs.stop.disabled = true;
