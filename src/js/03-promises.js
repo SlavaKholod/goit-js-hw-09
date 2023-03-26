@@ -30,6 +30,7 @@ function onFormSubmit(evt) {
       createPromise(i, totalDelay).then(onResolve).catch(onReject);
     }
   }
+  inputPromiseForm.reset();
 }
 
 function onResolve(resolve) {
